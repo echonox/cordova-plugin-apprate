@@ -35,6 +35,7 @@ declare class AppRatePreferences {
   inAppReview:boolean;
   simpleMode:boolean;
   callbacks:CallbackPreferences;
+  buttonsOrder:array;
   storeAppURL:StoreAppURLPreferences;
   customLocale:CustomLocale;
   openUrl:(url:string) => void;
